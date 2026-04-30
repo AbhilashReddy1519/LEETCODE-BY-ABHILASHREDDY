@@ -1,17 +1,21 @@
 {
-	"cph.general.saveLocation": "${workspaceFolder}/compiled",
+	"cph.general.saveLocation": "C:\\Users\\ABHILASH REDDY\\OneDrive\\Documents\\LEETCODE-BY-ABHILASHREDDY\\compiled",
 
 	"cph.language.cpp.command": "g++",
 	"cph.language.cpp.args": [
 		"-std=c++17",
 		"-O2",
 		"-o",
-		"${workspaceFolder}/compiled/${fileBasenameNoExtension}.bin",
+		"C:\\Users\\ABHILASH REDDY\\OneDrive\\Documents\\LEETCODE-BY-ABHILASHREDDY\\compiled\\${fileBasenameNoExtension}.bin",
 		"${file}"
 	],
 
 	"cph.language.java.command": "javac",
-	"cph.language.java.args": ["-d", "${workspaceFolder}/compiled", "${file}"],
+	"cph.language.java.args": [
+		"-d",
+		"C:\\Users\\ABHILASH REDDY\\OneDrive\\Documents\\LEETCODE-BY-ABHILASHREDDY\\compiled",
+		"${file}"
+	],
 
 	"cph.language.python.command": "python",
 	"cph.language.python.args": ["${file}"],
@@ -20,7 +24,7 @@
 	"cph.language.c.args": [
 		"-O2",
 		"-o",
-		"${workspaceFolder}/compiled/${fileBasenameNoExtension}.bin",
+		"C:\\Users\\ABHILASH REDDY\\OneDrive\\Documents\\LEETCODE-BY-ABHILASHREDDY\\compiled\\${fileBasenameNoExtension}.bin",
 		"${file}"
 	]
 }
