@@ -1,4 +1,6 @@
 .vscode/
-compiled
-.cph
+compiled/
+.cph/
 *.bin
+*.exe
+*.out
